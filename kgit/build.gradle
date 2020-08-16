@@ -36,6 +36,7 @@ kotlin {
       dependencies {
         implementation kotlin('stdlib-jdk8')
         implementation "org.eclipse.jgit:org.eclipse.jgit:5.7.0.202003110725-r"
+        implementation "com.github.git24j:git24j:1.0.0.20200805"
         implementation deps.kotlinxSerialization.jvm
       }
     }
